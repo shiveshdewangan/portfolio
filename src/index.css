@@ -4,6 +4,14 @@ html {
 	scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar {
+	width: 12px !important;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: tomato;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
