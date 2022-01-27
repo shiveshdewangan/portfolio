@@ -1,39 +1,21 @@
 const projectsData = [
   {
-    title: "SHEYSHOP",
-    image: "./ecommerce.svg",
-    description: "An ecommerce application developed using react , node , redux and mongodb",
-    link: "/",
-  },
-  {
-    title: "SHEYPIZZA",
-    image: "./pizzas.svg",
-    description: "An ecommerce application developed using react , node , redux and mongodb",
-    link: "/",
-  },
-  {
-    title: "SHEYROOMS",
-    image: "./hotels.svg",
-    description: "An ecommerce application developed using react , node , redux and mongodb",
-    link: "/",
-  },
-  {
-    title: "SHEYJOBS",
+    title: "PORTFOLIO",
     image: "./jobs.svg",
     description: "An ecommerce application developed using react , node , redux and mongodb",
-    link: "/",
+    link: "https://shivesh-portfolio.netlify.app",
   },
   {
-    title: "SHEYGRAM",
+    title: "iGRAM",
     image: "./socialmedia.svg",
     description: "An ecommerce application developed using react , node , redux and mongodb",
-    link: "/",
+    link: "https://my-ig-clone-app.herokuapp.com/login",
   },
   {
-    title: "SHEYCARS",
-    image: "./cars.svg",
+    title: "GITHUB DASHBOARD",
+    image: "./github.svg",
     description: "An ecommerce application developed using react , node , redux and mongodb",
-    link: "/",
+    link: "https://github-profile-dashboard.herokuapp.com",
   },
 ];
 

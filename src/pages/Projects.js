@@ -47,9 +47,12 @@ const Projects = () => {
                 <img className="w-full h-52 text-center" src={project.image} alt="" />
                 <div className="absolute inset-0 flex items-center justify-center flex-col opacity-0 bg-black hover:opacity-80 rounded-tr-3xl rounded-bl-3xl">
                   <h1 className="text-4xl font-semibold text-white">{project.title}</h1>
-                  <button className="border-2 rounded border-white py-2 hover:bg-green-500 px-5 mt-5 text-white">
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    className="border-2 rounded border-white py-2 hover:bg-green-500 px-5 mt-5 text-white">
                     DEMO
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
